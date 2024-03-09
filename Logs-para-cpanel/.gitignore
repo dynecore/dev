@@ -1,0 +1,11 @@
+# Borra esta linea si quieres que git guarde los logs
+logs/*
+
+# Esta linea mantiene la carpeta logs en el git
+!logs/.gitkeep
+
+# dependencies
+node_modules/
+
+# macOS-specific files
+.DS_Store
